@@ -1,0 +1,14 @@
+(tempo! 110)
+(volume 100)
+
+verse01 = ta30W ta21H ta33H ta21H ta33H ta33W ta33H ta30H ta33W ta33W ta33W ta43H ta30W
+verse02 = ta21H ta33H ta21H ta33H ta21W ta24W
+verse021 = ta21H ta33H ta21H ta33H ta21W ta24H ta24H
+
+guitar:
+  verse01
+  r2
+  ta30W verse01
+  r2
+  verse02
+  verse021
