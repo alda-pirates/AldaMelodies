@@ -1,0 +1,18 @@
+#C7 Chords
+taC7_Q = (c 0 3 2 3 1 0 Q) #chord (quarter duration)
+taC7_H = (c 0 3 2 3 1 0 H) #chord (half duration)
+
+#C7 Arpeggios
+taC7_ADH = ta10H ta23H ta32H ta43H ta51H ta60H #down arpeggio (half duration)
+taC7_AUH = ta60H ta51H ta43H ta32H ta23H ta10H #up arpeggio (half duration)
+taC7_AUQ = ta60Q ta51Q ta43Q ta32Q ta23Q ta10Q #up arpeggio (quarter duration)
+
+chords =   [taC7_ADH taC7_Q %solo ]*4 taC7_AUH
+rif = (panning 80) [ta10 ta23 ta32 (panning 50) ta43 ta51 ta60 (panning 30)]*2
+midi-choir-aahs: (tempo 300) rif*2
+guitar "guitar1": (tempo 100) [(panning 20) (vol 80) [taC7_ADH (vol (rand-int 90)) taC7_AUQ (panning 70) (vol 100)]*4 (panning 40) (vol 90) taC7_ADH]*2
+guitar "guitar2": (tempo 100) [(panning 80) (vol 70) [taC7_H taC7_Q ]*4 (panning 60) (vol 100) taC7_H]*2
+electric-guitar-clean: (tempo! 50) chords
+electric-guitar-distorted: @solo (tempo 300) rif %solo2
+electric-guitar-harmonics: @solo2 (tempo 300)  rif
+midi-guitar-fret-noise: (vol 100) XW r8 (quant 10) XQ (quant 50) XW r1 (quant 100) XW
