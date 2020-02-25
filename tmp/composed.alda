@@ -504,10 +504,16 @@ verse01 = ta30W ta21H ta33H ta21H ta33H ta33W ta33H ta30H ta33W ta33W ta33W ta43
 verse02 = ta21H ta33H ta21H ta33H ta21W ta24W
 verse021 = ta21H ta33H ta21H ta33H ta21W ta24H ta24H
 
+midd = ta33W ta26W r3
+
 guitar:
   verse01
   r2
   ta30W verse01
   r2
+  verse02
+  verse021
+  r2
+  midd
   verse02
   verse021
