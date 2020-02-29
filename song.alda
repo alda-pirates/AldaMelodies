@@ -1,0 +1,74 @@
+(tempo! 110)
+(volume 100)
+
+verse01 = ta30H ta21H ta33H ta21H ta33H ta33W ta33H ta30H ta33W ta33W ta33W ta43H ta30W
+verse02 = ta21H ta33H ta21H ta33H ta21W ta24W ta21H ta33H ta21H ta33H ta21W ta24H ta24H
+verse03 = ta24H ta24W ta211H ta16W ta24H ta24H ta21H ta24W ta21W r3 ta48H ta211H ta16W
+verse04 = ta33W ta21H ta33H ta21H ta33H ta21W ta24W ta26W ta24H ta21W ta21H ta24W ta24H
+verse05 = ta33H ta26W ta26H ta24H ta26W ta28W ta21H ta21H ta211H ta16W ta24H ta24H ta21H ta24W ta21W r4 ta48W ta211H ta16W
+
+midd = ta33W ta26W r3
+midd2 = ta33H ta33H ta26W r3
+midd3 = ta28Q ta29Q ta28W r4
+
+cello "melody":
+	verse01
+	r2
+	ta30H verse01
+	r2
+	verse02
+	r2
+	midd
+	verse02
+	r2
+	midd2
+	%start_v03
+	verse03
+	r2
+	verse03 r4 ta24H ta24W
+	r4
+	verse01
+	r2
+	ta30H verse01
+	r2
+	verse04
+	r2
+	midd2
+	midd3
+	verse02
+  r2
+  verse05
+  r2
+  verse03
+
+
+guitar:
+verse01
+	r2
+	ta30H verse01
+	r2
+	verse02
+	r2
+	midd
+	verse02
+	r2
+	midd2
+	%start_v03
+	verse03
+	r2
+	verse03 r4 ta24H ta24W
+	r4
+	verse01
+	r2
+	ta30H verse01
+	r2
+	verse04
+	r2
+	midd2
+	midd3
+	verse02
+  r2
+  verse05
+  r2
+  verse03
+#68
