@@ -497,77 +497,31 @@ XQ = a16
 XH = a8
 XW = a4
 XD = a2
-(tempo! 110)
+(tempo! 160)
 (volume 100)
 
-verse01 = ta30H ta21H ta33H ta21H ta33H ta33W ta33H ta30H ta33W ta33W ta33W ta43H ta30W
-verse02 = ta21H ta33H ta21H ta33H ta21W ta24W ta21H ta33H ta21H ta33H ta21W ta24H ta24H
-verse03 = ta24H ta24W ta211H ta16W ta24H ta24H ta21H ta24W ta21W r3 ta48H ta211H ta16W
-verse04 = ta33W ta21H ta33H ta21H ta33H ta21W ta24W ta26W ta24H ta21W ta21H ta24W ta24H
-verse05 = ta33H ta26W ta26H ta24H ta26W ta28W ta21H ta21H ta211H ta16W ta24H ta24H ta21H ta24W ta21W r4 ta48W ta211H ta16W
+midi-electric-guitar-palm-muted: (volume 80)
 
-midd = ta33W ta26W r3
-midd2 = ta33H ta33H ta26W r3
-midd3 = ta28Q ta29Q ta28W r4
+    ta55W ta65H ta65H ta55H ta55H ta57H ta57H ta58H ta58H ta57H ta57H ta55H ta55H ta57H ta57H
 
-cello "melody":
-	verse01
-	r2
-	ta30H verse01
-	r2
-	verse02
-	r2
-	midd
-	verse02
-	r2
-	midd2
-	%start_v03
-	verse03
-	r2
-	verse03 r4 ta24H ta24W
-	r4
-	verse01
-	r2
-	ta30H verse01
-	r2
-	verse04
-	r2
-	midd2
-	midd3
-	verse02
-  r2
-  verse05
-  r2
-  verse03
+    ta53W ta63H ta63H ta53H ta53H ta55H ta55H ta57H ta57H ta55H ta55H ta53H ta53H ta57H ta53H
 
+    ta55W ta65H ta65H ta55H ta55H ta57H ta57H ta58H ta58H ta57H ta57H ta55H ta55H ta57H ta57H
 
-guitar:
-verse01
-	r2
-	ta30H verse01
-	r2
-	verse02
-	r2
-	midd
-	verse02
-	r2
-	midd2
-	%start_v03
-	verse03
-	r2
-	verse03 r4 ta24H ta24W
-	r4
-	verse01
-	r2
-	ta30H verse01
-	r2
-	verse04
-	r2
-	midd2
-	midd3
-	verse02
-  r2
-  verse05
-  r2
-  verse03
-#68
+    ta53W ta63H ta63H ta53H ta53H ta55H ta55H ta57H ta57H ta55H ta55H ta53H ta53H ta57H ta53H
+
+    ta50H ta50H ta60H ta60H ta50H ta50H ta52H ta52H ta53H ta53H ta52H ta52H ta50H ta50H ta52H ta52H
+
+midi-electric-guitar-distorted "DaveMurray":(volume 70)
+
+    ta37W ta47H ta47H ta37H ta37H ta25H ta25H ta26H ta26H ta25H ta25H ta37H ta37H ta25H ta25H
+
+    ta35W ta45H ta45H ta35H ta35H ta23H ta23H ta25H ta25H ta23H ta23H ta35H ta35H ta25H ta35H
+
+    ta37W ta47H ta47H ta37H ta37H ta25H ta25H ta26H ta26H ta25H ta25H ta37H ta37H ta25H ta25H
+
+    ta35W ta45H ta45H ta35H ta35H ta23H ta23H ta25H ta25H ta23H ta23H ta35H ta35H ta25H ta35H
+
+    ta37W ta47H ta47H ta37H ta37H ta25H ta25H ta26H ta26H ta25H ta25H ta37H ta37H ta25H ta25H
+		
+		

@@ -43,7 +43,7 @@ cello "melody":
 
 
 guitar:
-verse01
+  verse01
 	r2
 	ta30H verse01
 	r2

@@ -1,0 +1,28 @@
+(tempo! 160)
+(volume 100)
+
+midi-electric-guitar-palm-muted: (volume 80)
+
+    ta55W ta65H ta65H ta55H ta55H ta57H ta57H ta58H ta58H ta57H ta57H ta55H ta55H ta57H ta57H
+
+    ta53W ta63H ta63H ta53H ta53H ta55H ta55H ta57H ta57H ta55H ta55H ta53H ta53H ta57H ta53H
+
+    ta55W ta65H ta65H ta55H ta55H ta57H ta57H ta58H ta58H ta57H ta57H ta55H ta55H ta57H ta57H
+
+    ta53W ta63H ta63H ta53H ta53H ta55H ta55H ta57H ta57H ta55H ta55H ta53H ta53H ta57H ta53H
+
+    ta50H ta50H ta60H ta60H ta50H ta50H ta52H ta52H ta53H ta53H ta52H ta52H ta50H ta50H ta52H ta52H
+
+midi-electric-guitar-distorted "DaveMurray":(volume 70)
+
+    ta37W ta47H ta47H ta37H ta37H ta25H ta25H ta26H ta26H ta25H ta25H ta37H ta37H ta25H ta25H
+
+    ta35W ta45H ta45H ta35H ta35H ta23H ta23H ta25H ta25H ta23H ta23H ta35H ta35H ta25H ta35H
+
+    ta37W ta47H ta47H ta37H ta37H ta25H ta25H ta26H ta26H ta25H ta25H ta37H ta37H ta25H ta25H
+
+    ta35W ta45H ta45H ta35H ta35H ta23H ta23H ta25H ta25H ta23H ta23H ta35H ta35H ta25H ta35H
+
+    ta37W ta47H ta47H ta37H ta37H ta25H ta25H ta26H ta26H ta25H ta25H ta37H ta37H ta25H ta25H
+		
+		
